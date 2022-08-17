@@ -1,0 +1,23 @@
+.navbar {
+  background: linear-gradient(180deg, #d9dae2 0%, #ffffff 22%, #cbcdd8 100%);
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+}
+
+.navbar-brand {
+  width: 200px;
+  text-align: left;
+}
+
+.nav-link{
+	font-weight: 600;
+	color: black;
+	font-size: 1.2rem;
+	padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover{
+	font-size: 1.4rem;
+}
