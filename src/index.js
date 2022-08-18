@@ -6,6 +6,7 @@ import {
   Navigation,
   Footer,
   Home,
+  Ticket,
   About,
   Blog,
   Nautika,
@@ -20,6 +21,7 @@ root.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/ticket" element={<Ticket />} />
       <Route path="/about" element={<About />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/nautika" element={<Nautika />} />
